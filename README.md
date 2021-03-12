@@ -15,5 +15,5 @@ Run `./setup.sh`
   - A bashrc profile that will setup some things for you such as color prompt and loading modules based on what machine you are logged into. This could use some more testing on Ace. Works nice with Turing.
 - `bash_aliases`
   - Some basic commands that are setup to make life easier.
-- `setup.bash`
+- `setup.sh`
   - A script to set up the 3 above elements for you.
