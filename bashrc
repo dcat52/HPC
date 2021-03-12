@@ -15,7 +15,7 @@ fi
 # ===========================================
 # ===========================================
 
-source ~/.bash_aliases > /dev/null
+source ~/.bash_aliases
 
 eval `ssh-agent` > /dev/null
 ssh-add ~/.ssh/github.pem > /dev/null

@@ -9,9 +9,8 @@ alias wmysq="watch 'squeue -u $USER -o $q_params'"
 
 alias ninfo="sinfo -o $i_params"
 
-alias
 # script to run srun with an interactive shell
-alias interactive="bash ./interactive.sh"
+alias interactive="bash ~/.interactive.sh"
 
 # Python venv directory
 function venv() {
