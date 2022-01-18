@@ -47,10 +47,10 @@ echo "Parameters:
 	RAM:  ${amt_rams}
 "
 
-echo 'srun -n ${num_cpus} --gres=gpu:${num_gpus} --mem ${amt_rams} --job-name=iJob --pty bash
+echo 'srun -n ${num_cpus} --gres=gpu:${num_gpus} --nodes=1 --mem ${amt_rams} --job-name=iJob --pty bash
 '
 
-echo "srun -n ${num_cpus} --gres=gpu:${num_gpus} --mem ${amt_rams} --job-name=iJob --pty bash
+echo "srun -n ${num_cpus} --gres=gpu:${num_gpus} --nodes=1 --mem ${amt_rams} --job-name=iJob --pty bash
 "
 
-srun -n ${num_cpus} --gres=gpu:${num_gpus} --mem ${amt_rams} --job-name=iJob --pty bash
+srun -n ${num_cpus} --gres=gpu:${num_gpus} --nodes=1 --mem ${amt_rams} --job-name=iJob --pty bash
