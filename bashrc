@@ -39,5 +39,5 @@ fi
 export MANPATH=$MANPATH:$HOME/.opt/share/man
 export PATH=$PATH:$HOME/.opt/bin
 
-export PATH=$HOME/singularity-definitions/apps:$PATH
+export PATH=$HOME/singularity-definitions/bin:$PATH
 export PATH=$PATH:$HOME/.local/bin
