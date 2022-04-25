@@ -5,7 +5,7 @@ OPTIND=1
 
 # init vars
 num_cpus=8
-num_gpus=1
+num_gpus=0
 amt_rams=8G
 
 usage() {
